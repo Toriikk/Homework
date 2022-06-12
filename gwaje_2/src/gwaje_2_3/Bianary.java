@@ -9,7 +9,7 @@ public class Bianary {
 
 		System.out.println("숫자를 입력하세요 : ");
 		int num = sc.nextInt();
-		float num2 = num;
+		int num2 = num;
 
 		// 10진수를 2진수로 바꿀 때 몇 번의 나눗셈을 하는지 확인 
 		int i = 0; // 이진수 개수
@@ -18,7 +18,7 @@ public class Bianary {
 			i++;
 		}
 		// 확인된 2진수의 개수를 통해 각 2진수를 배열에 넣음
-		float[] arr = new float[i];
+		int[] arr = new int[i];
 		int j = 0;
 		num2 = num;
 		
